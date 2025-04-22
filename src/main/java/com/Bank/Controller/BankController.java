@@ -20,7 +20,7 @@ public class BankController {
 	@Autowired
 	BankService bs;
 	
-	@PostMapping(value="/postAllObject")
+	@PostMapping(value="/postObjects")
 	public String postAllObject(@RequestBody List<Bank> banks) {
 		return bs.postAllObject(banks);
 	}

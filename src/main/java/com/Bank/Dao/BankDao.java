@@ -16,7 +16,7 @@ public class BankDao {
 
 	public String postAllObject(List<Bank> banks) {
 		br.saveAll(banks);
-		return "Posted SuccessFully";
+		return "Posted All Objects Successfully";
 	}
 	
 	public String getAllObject(String ifscCode){
